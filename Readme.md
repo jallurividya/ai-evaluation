@@ -99,7 +99,7 @@ Shows:
   ├── auth.js
   ├── Readme.md
   ├── auth.css
-  └── style.css
+  └── style.css ---
 --- 
 
 ### 🧪 How to Run Locally
