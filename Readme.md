@@ -81,7 +81,6 @@ Shows:
 ### 🧪 How to Run Locally
 1️⃣ Clone the repository
 git clone https://github.com/jallurividya/ai-evaluation.git
-cd ai-evaluation/AI-Evaluation
 
 2️⃣ Add Firebase configuration
 
