@@ -86,17 +86,20 @@ Shows:
   ├── login.html
   ├── dashboard.html
   ├── analytics.html
-  ├── styles.css
-  ├── app.js
+  ├── signup.html
+  ├── api.js
   ├── dashboard.js
   ├── analytics.js
   ├── firebase.js
-  └── README.md
+  ├── auth.js
+  ├── Readme.md
+  ├── auth.css
+  └── style.css
 
 
-### 🧪 How to Run Locally
+🧪 How to Run Locally
 1️⃣ Clone the repository
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/jallurividya/ai-evaluation/tree/main/AI-Evaluation
 cd your-repo
 
 2️⃣ Add Firebase configuration
@@ -121,17 +124,13 @@ Save
 
 Done! Your site will be live in seconds.
 
-### 📸 Screenshots
+📸 Screenshots
 
-(Add your screenshots here in Markdown)
-
-Example:
-
-![Login Page](screenshots/login.png)
+![Home Page](screenshots/home.png)
 ![Dashboard](screenshots/dashboard.png)
 ![Analytics](screenshots/analytics.png)
 
-### 🚀 Future Improvements
+🚀 Future Improvements
 
 - Dark mode
 
@@ -143,7 +142,7 @@ Example:
 
 - AI-powered productivity suggestions
 
-### 🙌 Acknowledgment
+🙌 Acknowledgment
 
 This project was built with the help of AI tools (ChatGPT) for:
 
@@ -156,10 +155,3 @@ This project was built with the help of AI tools (ChatGPT) for:
 - Optimization
 
 - Documentation (this README)
-
-### 📌 Important Links
-Type	Link
-GitHub Repo	YOUR_REPO_LINK
-Live Demo	YOUR_DEPLOYED_LINK
-Video Walkthrough	YOUR_VIDEO_LINK
-Firebase Console	https://console.firebase.google.com/
