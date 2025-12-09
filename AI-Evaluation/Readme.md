@@ -126,6 +126,7 @@ Done! Your site will be live in seconds.
 
 📸 Screenshots
 
+<img src="screenshots/home.png" width="400px">
 ![This is an alt text.](./screenshots/home.png "This is a sample image.")
 ![Home Page](./screenshots/home.png "Home Page View")
 ![Dashboard](screenshots/dashboard.png "Dashboard Overview")
