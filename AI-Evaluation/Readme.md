@@ -126,9 +126,9 @@ Done! Your site will be live in seconds.
 
 📸 Screenshots
 
-![Home Page](screenshots/home.png)
-![Dashboard](screenshots/dashboard.png)
-![Analytics](screenshots/analytics.png)
+![Home Page](screenshots/home.png "Home Page View")
+![Dashboard](screenshots/dashboard.png "Dashboard Overview")
+![Analytics](screenshots/analytics.png "Analytics Section")
 
 🚀 Future Improvements
 
