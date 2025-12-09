@@ -78,36 +78,10 @@ Shows:
 
 ---
 
-![Home Page](./screenshots/home.png "Home Page View")
-![Dashboard](screenshots/dashboard.png "Dashboard Overview")
-![Analytics](screenshots/analytics.png "Analytics Section")
-
-
-## 📂 Folder Structure
-
-\\
-```md
-/project
-  ├── index.html
-  ├── login.html
-  ├── dashboard.html
-  ├── analytics.html
-  ├── signup.html
-  ├── api.js
-  ├── dashboard.js
-  ├── analytics.js
-  ├── firebase.js
-  ├── auth.js
-  ├── Readme.md
-  ├── auth.css
-  └── style.css 
-  \\
---- 
-
 ### 🧪 How to Run Locally
 1️⃣ Clone the repository
-git clone https://github.com/jallurividya/ai-evaluation/tree/main/AI-Evaluation
-cd your-repo
+git clone https://github.com/jallurividya/ai-evaluation.git
+cd ai-evaluation/AI-Evaluation
 
 2️⃣ Add Firebase configuration
 
@@ -115,7 +89,7 @@ Inside firebase.js, replace with your Firebase config.
 
 3️⃣ Host locally
 
-Use Live Server (VS Code) or any static server.
+Use Live Server (VS Code)
 
 4️⃣ Deploy to GitHub Pages
 
@@ -131,13 +105,13 @@ Save
 
 Done! Your site will be live in seconds.
 
-📸 Screenshots
+### 📸 Screenshots
 
 ![Home Page](./ai-evaluation/AI-Evaluation/screenshots/home.png "Home Page View")
 ![Dashboard](screenshots/dashboard.png "Dashboard Overview")
 ![Analytics](screenshots/analytics.png "Analytics Section")
 
-🚀 Future Improvements
+### 🚀 Future Improvements
 
 - Dark mode
 
@@ -149,7 +123,7 @@ Done! Your site will be live in seconds.
 
 - AI-powered productivity suggestions
 
-🙌 Acknowledgment
+### 🙌 Acknowledgment
 
 This project was built with the help of AI tools (ChatGPT) for:
 
