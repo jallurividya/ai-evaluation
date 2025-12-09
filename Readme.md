@@ -6,12 +6,12 @@ Built using **HTML/CSS/JavaScript**, **Firebase Authentication**, and **Firebase
 ---
 
 ## 🚀 Live Demo  
-🔗 **Deployed Link:** *Add your GitHub Pages link here*
+🔗 **Deployed Link:** https://jallurividya.github.io/ai-evaluation/
 
 ---
 
 ## 📹 Video Walkthrough  
-🔗 **Video Link:** *Add your YouTube / Google Drive link here*
+🔗 **Video Link:** https://drive.google.com/file/d/14s_rXXUD890rr8jGcy2x4GFr0stDTtB8/view?usp=sharing
 
 ### Your video should include:
 - Walkthrough of the main features  
@@ -105,11 +105,15 @@ Save
 
 Done! Your site will be live in seconds.
 
+---
+
 ### 📸 Screenshots
 
 ![Home Page](screenshots/home.png "Home Page View")
 ![Dashboard](screenshots/dashboard.png "Dashboard Overview")
 ![Analytics](screenshots/analytics.png "Analytics Section")
+
+---
 
 ### 🚀 Future Improvements
 
@@ -122,6 +126,8 @@ Done! Your site will be live in seconds.
 - Drag-and-drop activity sorting
 
 - AI-powered productivity suggestions
+
+---
 
 ### 🙌 Acknowledgment
 
