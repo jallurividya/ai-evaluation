@@ -105,12 +105,6 @@ Save
 
 Done! Your site will be live in seconds.
 
-### 📸 Screenshots
-
-![Home Page](screenshots/home.png "Home Page View")
-![Dashboard](screenshots/dashboard.png "Dashboard Overview")
-![Analytics](screenshots/analytics.png "Analytics Section")
-
 ### 🚀 Future Improvements
 
 - Dark mode
