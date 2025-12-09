@@ -100,7 +100,7 @@ Shows:
   ├── Readme.md
   ├── auth.css
   └── style.css 
-  ```md
+  \`\`\`
 --- 
 
 ### 🧪 How to Run Locally
