@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Analytics - AI Time Tracker</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    a {
+      text-decoration: none;
+    }
+
+    .stats-card {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="brand">
+      <div class="icon">🕒</div>
+      AI Time Tracker
+    </div>
+    <div class="nav-actions">
+      <a href="dashboard.html">Dashboard</a>
+      <a href="analytics.html" class="active">Analytics</a>
+      <a id="logoutLink" style="cursor:pointer">Logout</a>
+    </div>
+  </div>
+
+  <main class="container">
+    <div class="card">
+      <h2 class="section-title">Analytics</h2>
+      <p class="section-sub">Visualize time by category for a selected date</p>
+
+      <div style="margin-top:20px;">
+        <div style="display:flex;gap:14px;align-items:center;width:100%;max-width:800px;">
+          <button id="prevAna" class="icon-btn">◀</button>
+          <div id="anaDateLabel"
+            style="flex:1;padding:12px;border-radius:12px;background:linear-gradient(90deg,#f3f4ff,#fbf6ff);text-align:center;">
+            Today</div>
+          <button id="nextAna" class="icon-btn">▶</button>
+        </div>
+      </div>
+
+      <div style="margin-top:26px;" class="big-placeholder card">
+        <canvas id="pieChart" style="max-width:700px;margin:auto;"></canvas>
+        <div id="noDataAna" class="no-state" style="display:none;margin-top:18px;">
+          <div style="font-size:36px;">📉</div>
+          <h3>No Data Available</h3>
+          <p class="section-sub">No activities recorded for this date.</p>
+          <a href="dashboard.html" class="btn-primary">Go to Dashboard</a>
+        </div>
+      </div>
+
+      <div class="stats-card card">
+        <h3>Summary Stats</h3>
+        <div class="stats-grid">
+          <div class="stat">
+            <h4 id="totalHours">0 h</h4>
+            <p>Total Hours Spent</p>
+          </div>
+
+          <div class="stat">
+            <h4 id="totalActivities">0</h4>
+            <p>Total Activities Logged</p>
+          </div>
+
+          <div class="stat">
+            <h4>Category Breakdown</h4>
+            <ul id="categoryBreakdown"></ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <script type="module" src="analytics.js"></script>
+</body>
+
+</html>

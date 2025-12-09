@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>AI Time Tracker</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    a {
+      text-decoration: none;
+    }
+
+    .btn-primary:hover {
+      transform: scale(1.02);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="brand">
+      <div class="icon">🕒</div>
+      AI Time Tracker
+    </div>
+    <div class="nav-actions">
+      <a href="login.html" class="nav-btn">Login</a>
+      <a href="signup.html" class="nav-btn signup">Sign Up</a>
+    </div>
+  </div>
+
+  <section class="landing-hero">
+    <h1>AI Time Tracker</h1>
+    <p>Smart time tracking with AI-powered insights and analytics</p>
+
+    <div style="margin-top:20px;">
+      <a href="login.html" class="btn-primary">Login</a>
+      <a href="signup.html" class="btn-primary"
+        style="margin-left:12px; background:transparent; border:2px solid #7b43ff; color:#7b43ff;">Sign Up</a>
+    </div>
+  </section>
+
+  <div class="container">
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding-bottom:60px;">
+      <div class="card">
+        <div
+          style="height:64px;width:64px;border-radius:12px;background:linear-gradient(180deg,#efeaff,#e7e1ff);display:flex;align-items:center;justify-content:center;">
+          📆</div>
+        <h3 style="margin-top:14px;">Daily Tracking</h3>
+        <p style="color:var(--muted);">Log activities and ensure your day sums to 24 hours</p>
+      </div>
+
+      <div class="card">
+        <div
+          style="height:64px;width:64px;border-radius:12px;background:linear-gradient(180deg,#efeaff,#e7e1ff);display:flex;align-items:center;justify-content:center;">
+          📊</div>
+        <h3 style="margin-top:14px;">Rich Analytics</h3>
+        <p style="color:var(--muted);">Pie charts by category and time distribution</p>
+      </div>
+
+      <div class="card">
+        <div
+          style="height:64px;width:64px;border-radius:12px;background:linear-gradient(180deg,#ffeef7,#ffe6f2);display:flex;align-items:center;justify-content:center;">
+          💡</div>
+        <h3 style="margin-top:14px;">Smart Insights</h3>
+        <p style="color:var(--muted);">Notes + category help you analyze your day</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

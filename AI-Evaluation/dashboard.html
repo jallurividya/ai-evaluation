@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Dashboard - AI Time Tracker</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="navbar">
+    <div class="brand">
+      <div class="icon">🕒</div>
+      AI Time Tracker
+    </div>
+    <div class="nav-actions">
+      <a href="dashboard.html" class="active">Dashboard</a>
+      <a href="analytics.html">Analytics</a>
+      <a id="logoutBtn" style="cursor:pointer">Logout</a>
+    </div>
+  </div>
+
+  <main class="container">
+    <div class="card date-card">
+      <div style="display:flex;justify-content:space-between;align-items:center;">
+        <div>
+          <h2 class="section-title">Time Tracker</h2>
+          <p class="section-sub">Record your activities for the selected date</p>
+        </div>
+        <div>
+          <button id="openAdd" class="add-btn">+ Add Activity</button>
+        </div>
+      </div>
+
+      <div style="margin-top:18px;">
+        <div style="display:flex;gap:14px;align-items:center;">
+          <button id="prevDay" class="icon-btn">◀</button>
+          <div id="selectedDateLabel"
+            style="flex:1;padding:12px;border-radius:12px;background:linear-gradient(90deg,#f3f4ff,#fbf6ff);text-align:center;">
+            Today</div>
+          <button id="nextDay" class="icon-btn">▶</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="card summary-card">
+      <h3 style="margin-top:0;">Daily Summary</h3>
+      <div style="margin-top:12px;">
+        <div style="display:flex;justify-content:space-between;"><small>Used Time</small><small id="usedText">0 / 1440
+            min</small></div>
+        <div style="height:10px;border-radius:10px;background:#f1f5f9;margin-top:10px;overflow:hidden">
+          <div id="progressBar"
+            style="height:100%;width:0%;background:linear-gradient(90deg,var(--accent1),var(--accent2));"></div>
+        </div>
+        <div style="text-align:right;margin-top:12px;color:var(--accent1);font-weight:800;font-size:20px;"
+          id="remainingText">1440 min</div>
+      </div>
+    </div>
+
+    <div class="card activity-card">
+      <div id="activitiesContainer">
+        <div class="no-state">
+          <div style="font-size:36px;">➕</div>
+          <h3>No Activities Yet</h3>
+          <p class="section-sub">Add your first activity for this day.</p>
+          <button id="addFirst" class="btn-primary">Add First Activity</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Modal (Glass) -->
+  <div id="modalBackdrop" class="modal-backdrop" aria-hidden="true">
+    <div id="modal" class="modal" role="dialog" aria-modal="true">
+      <h3 id="modalTitle">Add Activity</h3>
+
+      <div class="form-row">
+        <label>Activity name</label>
+        <input id="actName" class="input" placeholder="e.g., Study, Sleep, Work" />
+      </div>
+
+      <div class="form-row">
+        <label>Category</label>
+        <select id="actCategory" class="select">
+          <option value="">— Select category —</option>
+          <option>Work</option>
+          <option>Study</option>
+          <option>Sleep</option>
+          <option>Exercise</option>
+          <option>Leisure</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+      <div class="form-row">
+        <label>Minutes (integer)</label>
+        <input id="actMinutes" class="input" type="number" min="1" max="1440" placeholder="Minutes" />
+      </div>
+
+      <div class="form-row">
+        <label>Notes (optional)</label>
+        <textarea id="actNotes" class="input" rows="3" placeholder="Any notes about this activity..."></textarea>
+      </div>
+
+      <div id="modalError" style="color:#b91c1c;display:none;font-size:13px;margin-top:6px"></div>
+
+      <div class="modal-footer">
+        <button id="cancelModal" class="btn-ghost">Cancel</button>
+        <button id="saveModal" class="btn-save">Save</button>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="dashboard.js"></script>
+</body>
+
+</html>
