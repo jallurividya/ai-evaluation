@@ -100,10 +100,9 @@ Shows:
   ├── Readme.md
   ├── auth.css
   └── style.css
-
 --- 
 
-🧪 How to Run Locally
+### 🧪 How to Run Locally
 1️⃣ Clone the repository
 git clone https://github.com/jallurividya/ai-evaluation/tree/main/AI-Evaluation
 cd your-repo
@@ -132,7 +131,7 @@ Done! Your site will be live in seconds.
 
 📸 Screenshots
 
-![Home Page](./AI-Evaluation/screenshots/home.png "Home Page View")
+![Home Page](./ai-evaluation/AI-Evaluation/screenshots/home.png "Home Page View")
 ![Dashboard](screenshots/dashboard.png "Dashboard Overview")
 ![Analytics](screenshots/analytics.png "Analytics Section")
 
