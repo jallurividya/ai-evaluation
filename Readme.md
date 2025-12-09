@@ -85,7 +85,6 @@ Shows:
 
 ## 📂 Folder Structure
 
-```md
 /project
   ├── index.html
   ├── login.html
@@ -103,7 +102,7 @@ Shows:
 
 --- 
 
-🧪 How to Run Locally
+### 🧪 How to Run Locally
 1️⃣ Clone the repository
 git clone https://github.com/jallurividya/ai-evaluation/tree/main/AI-Evaluation
 cd your-repo
@@ -130,13 +129,13 @@ Save
 
 Done! Your site will be live in seconds.
 
-📸 Screenshots
+### 📸 Screenshots
 
 ![Home Page](./screenshots/home.png "Home Page View")
 ![Dashboard](screenshots/dashboard.png "Dashboard Overview")
 ![Analytics](screenshots/analytics.png "Analytics Section")
 
-🚀 Future Improvements
+### 🚀 Future Improvements
 
 - Dark mode
 
@@ -148,7 +147,7 @@ Done! Your site will be live in seconds.
 
 - AI-powered productivity suggestions
 
-🙌 Acknowledgment
+### 🙌 Acknowledgment
 
 This project was built with the help of AI tools (ChatGPT) for:
 
