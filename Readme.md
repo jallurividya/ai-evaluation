@@ -85,7 +85,7 @@ Shows:
 
 ## 📂 Folder Structure
 
-```md
+\`\`\`
 /project
   ├── index.html
   ├── login.html
